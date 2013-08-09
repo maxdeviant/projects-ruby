@@ -4,7 +4,7 @@ Mega Project List | [thekarangoel/Projects](https://github.com/thekarangoel/Proj
 Numbers
 ---------
 
-**Find PI to the Nth Digit** - Enter a number and have the program generate PI up to that many decimal places. Keep a limit to how far the program will go.
+[**Find PI to the Nth Digit**](https://github.com/maxdeviant/projects-ruby/blob/master/Numbers/pi_nth.rb) - Enter a number and have the program generate PI up to that many decimal places. Keep a limit to how far the program will go.
 
 **Fibonacci Sequence** - Enter a number and have the program generate the Fibonacci sequence to that number or to the Nth number.
 
