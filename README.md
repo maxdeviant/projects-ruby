@@ -1,4 +1,4 @@
-Mega Project List | [thekarangoel/Projects](https://github.com/thekarangoel/Projects)
+Mega Project List | [thekarangoel](https://github.com/thekarangoel/Projects)
 ========
 
 Numbers
