@@ -10,25 +10,25 @@ class TaxCalculator
         'VA' => 5, 'WA' => 6.5, 'WV' => 6, 'WI' => 5, 'WY' => 4
     }
 
-	puts "[ Tax Calculator ]"
-
+    puts "[ Tax Calculator ]"
+    
     # Gather user input
-	print "State in which you reside: "
-	state = gets.chomp
-
-	print "Amount on which you will be taxed: $"
-	amount = gets.chomp
-
+    print "State in which you reside: "
+    state = gets.chomp
+    
+    print "Amount on which you will be taxed: $"
+    amount = gets.chomp
+    
     # Get tax rate corresponding to the user's state
-	rate = tax_values[state] / 100.0
+    rate = tax_values[state] / 100.0
     
     # Calculate tax amount
-	tax = amount.to_f * rate.to_f
-	#tax = (tax * 100).round.to_f / 100
-
+    tax = amount.to_f * rate.to_f
+    #tax = (tax * 100).round.to_f / 100
+    
     # Calculate total cost and round to 2 decimal places
-	total = amount.to_f + tax
-	total = (total * 100).round.to_f / 100
-
-	puts "Total cost to you is $#{total}. Tax is $#{tax}. Rate is #{tax_values[state]}%."
+    total = amount.to_f + tax
+    total = (total * 100).round.to_f / 100
+    
+    puts "Total cost to you is $#{total}. Tax is $#{tax}. Rate is #{tax_values[state]}%."
 end
