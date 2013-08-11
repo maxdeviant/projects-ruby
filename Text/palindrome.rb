@@ -1,4 +1,6 @@
 class Palindrome
+    puts "[ Palindrome ]"
+
     # Gather user input
     print "What word do you think is a palindrome?: "
     input = gets.chomp
