@@ -1,5 +1,5 @@
 class CountVowels
-    vowels = "AaEeIiOoUuYy"
+    vowels = "AEIOUY"
     
     # Gather user input
     print "Say something: "
@@ -12,7 +12,7 @@ class CountVowels
         # Loop through each vowel
         vowels.each_char {|v|
             # If the current character is a vowel, increment the counter
-            if c == v
+            if c.upcase == v
                 vowel_count += 1
             end
         }
